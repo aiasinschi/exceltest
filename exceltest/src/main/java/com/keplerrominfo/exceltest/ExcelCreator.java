@@ -15,13 +15,6 @@ public class ExcelCreator {
 		try {
 			inp = new FileInputStream(fname);
 			wb = WorkbookFactory.create(inp);
-
-			/*
-			 * Sheet sheet1 = wb.createSheet("Sheet 1"); Row row1 =
-			 * sheet1.createRow((short) 0); Cell cell1 = row1.createCell((short)
-			 * 0); cell1.setCellValue(0.1234);
-			 */
-
 			/*
 			 * Get first sheet in document
 			 */
